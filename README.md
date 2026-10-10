@@ -1,23 +1,17 @@
-# Bhuntu
+# Bhuntu vs. Bhuntey ko buda — Nepal Road Rush
 
-A self-contained mobile browser game with five challenges, ten personal photos, your dramatic tmro Buda, and an original synthesized soundtrack.
+A personalized arcade road racer for Kajal and Sulav. Two photo-headed karts, traffic that speeds up, a 90-second showdown, and Endless High Score mode.
 
-## Play
+## Controls
 
-Open `index.html` in a modern browser, or upload it as the homepage of your website and open the resulting link on a phone. The game itself, photos, graphics, and music need no external files or network connection after the page is loaded. The optional artist song buttons open external websites.
+Phone: hold the arrow buttons to steer, brake to slow, and tap the moves. Laptop: arrow keys steer, down brakes, A slaps, S kicks, C sends Chuppa, Space boosts, H horns, and P pauses.
 
-Tap **Get my surprise** to begin. Watch the rules for each challenge, use **A tiny hint** when needed, and choose **A little more time** for gentler timings. Completed chapters save in the same browser when browser storage is available. The music starts after a tap; the header sound button turns it on or off.
+Kajal's mode has tougher traffic and a stronger rival. Slaps and kicks work when the rival is close; Chuppa distracts them. Collect hearts, dodge buses, watch goats, and pass traffic closely for bonuses. Three hearts per run. A momo can restore a heart.
 
-## Publish this folder
+Records are stored locally in the current browser, separately by player and mode. There is no online leaderboard. Photos decorate the karts, roadside ads, and end screen. The original synthesized soundtrack starts after a tap.
 
-The homepage is `index.html`. Include the supplied `.nojekyll` file when publishing this folder with GitHub Pages. No build step, package installation, or assets folder is required.
+## Hosting
 
-## Rebuild from the editable source
+This self-contained index.html embeds all assets, styles, scripts, and original music synthesis. No build or CDN needed. Publish the main branch root with GitHub Pages; retain .nojekyll.
 
-The modular version remains in `outputs/dashain-love-quest`. From the workspace, run:
-
-```sh
-node work/build-standalone.mjs
-```
-
-The builder embeds the latest source and validates the generated JavaScript before writing this folder.
+Editable source: outputs/nepal-love-race. Rebuild: node work/build-race.mjs.
